@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+dist/
+tmp/
+out-tsc/
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled TypeScript
+*.js
+*.js.map
+
+# Compiled CSS
+*.css
+
+# Sourcemaps
+*.d.ts
+
+# Angular-specific files
+.bowerrc
+bower.json
+.angular-cli.json
+karma.conf.js
+package.json
+package-lock.json
+tsconfig.json
+tslint.json
+yarn.lock
+
+# IDE files
+.vscode/
+*.code-workspace
+*.iml
+*.ipr
+*.iws
+
+# Environment variables
+.env
+*.env
+*.env.*

@@ -1,0 +1,15 @@
+<h2>Add New Song:</h2>
+<label>
+  Enter Song Name:
+  <input type="text" [(ngModel)]="newSong.name">
+</label>
+<br>
+<br>
+
+<label>
+ Enter Song Album:
+  <input type="text" [(ngModel)]="newSong.album">
+</label>
+<br>
+<br>
+<button (click)="addSong()">Add Song</button>
