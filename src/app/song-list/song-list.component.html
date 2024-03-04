@@ -1,0 +1,19 @@
+<h2>Add Songs to Your Playlist</h2>
+
+<div class="playlist-container">
+  <div *ngFor="let song of songs" class="playlist-item">
+    <input type="checkbox" [(ngModel)]="song.selected"> {{ song.name }}
+  </div>
+
+  <br>
+
+  <button (click)="addToPlaylist()" class="add-playlist-button">ADD Playlist</button>
+  <br>
+  <br>
+  <div>
+    Enter New Song: 
+    <input type="text" [(ngModel)]="newSongName" placeholder="Enter song name" class="add-song-input">
+    <button (click)="addSong()" class="add-song-button">Add Song</button>
+  </div>
+
+</div>

@@ -1,0 +1,25 @@
+.my-playlist-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .song-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .song-item:last-child {
+    border-bottom: none;
+  }
+  
+  .song-name {
+    font-weight: bold;
+  }
+  
+  .total-songs {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  

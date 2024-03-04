@@ -3,4 +3,9 @@ export interface Song {
     name: string;
     album: string;
   }
+export interface Song2 {
+    id: number;
+    name: string;
+    selected: boolean;
+  }
   

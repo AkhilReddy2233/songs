@@ -1,0 +1,13 @@
+<h2>My Playlist</h2>
+
+<div class="my-playlist-container">
+  <div *ngFor="let song of selectedSongs" class="song-item">
+    <div class="song-name">{{ song.name }}</div>
+    <!-- <div>{{ song.album }}</div> -->
+    <!-- Add more details if needed -->
+  </div>
+
+  <!-- <div class="total-songs">
+    Total Songs: {{ selectedSongs.length }}
+  </div> -->
+</div>
